@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: auto;
+  color: white;
+  background: rgb(0, 26, 38);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 26, 38, 1) 37%,
+    rgba(7, 80, 119, 1) 100%
+  );
+}
+
+.poem-style {
+  padding: 5vh;
+  font-family: "Amita", cursive;
+}
+
+p {
+  font-size: 2.5vw;
+  text-align: center;
+  line-height: 15vh;
+}
+
+h1 {
+  text-align: center;
+  line-height: 25vh;
+  font-size: 3vw;
+  font-weight: 600;
+  text-transform: capitalize;
+}
